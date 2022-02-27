@@ -1,0 +1,17 @@
+
+	@Test // (enabled = false)
+	public void TC03() {
+
+		System.out.println("TC03 is executed");
+	}
+
+	@BeforeMethod
+	public void login() {
+		System.out.println("Application Login");
+	}
+
+	@AfterMethod
+	public void logout() {
+		System.out.println("Application Logout");
+
+	}
